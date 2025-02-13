@@ -6,9 +6,11 @@ on:
 
 jobs:
   build:
-    name: Conventional Commits
+    name: Conventional Commits and Semantic Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
       - uses: webiny/action-conventional-commits@v1.3.0
+
+      - uses: cycjimmy/semantic-release-action@v4.1.1

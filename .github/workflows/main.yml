@@ -1,0 +1,23 @@
+name: Conventional Commits and Semantic Release
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    environment:
+      name: main
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v4.1.1
+
+      - name: Conventional Commits
+        uses: webiny/action-conventional-commits@v1.3.0
+
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}

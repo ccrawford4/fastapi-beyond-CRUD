@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.1.1...v1.1.2) (2025-02-14)
+
+
+### Bug Fixes
+
+* include env ([5e580b6](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/5e580b6b1f65ed037c79c1ab8afef0f831fe66af))
+
 ## [1.1.1](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.1.0...v1.1.1) (2025-02-14)
 
 

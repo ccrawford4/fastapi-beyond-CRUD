@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.1.0...v1.1.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* using docker token instead ([b6dd08f](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/b6dd08ff4be9416c567a4c80a8de0d2a9136e579))
+
 # [1.1.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.0.0...v1.1.0) (2025-02-14)
 
 

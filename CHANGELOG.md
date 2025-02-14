@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.0.0...v1.1.0) (2025-02-14)
+
+
+### Features
+
+* push to docker hub on pushes ([66ccade](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/66ccade61180693df83a4183c7cc2b47789fd91f))
+
 # 1.0.0 (2025-02-14)
 
 

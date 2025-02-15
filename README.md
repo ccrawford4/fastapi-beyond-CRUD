@@ -18,15 +18,12 @@ Follow the instructions below to set up and run your FastAPI project.
 
 ### Prerequisites
 Ensure you have the following installed:
-
-- Python 3.12 >= 3.10
-- PostgreSQL
-- Redis
+- Docker
 
 ### Project Setup
 1. Clone the project repository:
     ```bash
-    git clone https://github.com/jod35/fastapi-beyond-CRUD.git
+    git clone git@github.com:ccrawford4/fastapi-beyond-CRUD.git
     ```
    
 2. Navigate to the project directory:
@@ -34,47 +31,19 @@ Ensure you have the following installed:
     cd fastapi-beyond-CRUD/
     ```
 
-3. Create and activate a virtual environment:
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
-
-4. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-5. Set up environment variables by copying the example configuration:
+3. Set up environment variables by copying the example configuration:
     ```bash
     cp .env.example .env
     ```
 
-6. Run database migrations to initialize the database schema:
-    ```bash
-    alembic upgrade head
-    ```
-
-7. Open a new terminal and ensure your virtual environment is active. Start the Celery worker (Linux/Unix shell):
-    ```bash
-    sh runworker.sh
-    ```
-
 ## Running the Application
-Start the application:
-
-```bash
-fastapi dev src/
-```
-Alternatively, you can run the application using Docker:
+Start the application
 ```bash
 docker compose up -d
 ```
+
 ## Running Tests
 Run the tests using this command
 ```bash
 pytest
 ```
-
-## Contributing
-I welcome contributions to improve the documentation! You can contribute [here](https://github.com/jod35/fastapi-beyond-crud-docs).

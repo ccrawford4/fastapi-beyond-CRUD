@@ -1,9 +1,8 @@
 name: Nightly Build
 
-# build every night at 12am
+# Build every night at 12am
 on:
   schedule:
-    # - cron: 0 0 * * *
     - cron: "*/5 * * * *"
 
 jobs:

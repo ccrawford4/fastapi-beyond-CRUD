@@ -7,11 +7,25 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    environment:
-      name: main
+    environment: main
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Conventional Commits
         uses: webiny/action-conventional-commits@v1.3.0
+      
+      - name: Send email notification
+        if: failure()
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: ${{ secrets.SMTP_SERVER_ADDR }}
+          server_port: ${{ secrets.SMTP_SERVER_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: Conventional Commits check failed
+          to: ${{ github.event.pull_request.user.email }}
+          from: GitHub Workflow <${{ secrets.NOTIFICATION_SENDER }}>
+          body: The Conventional Commits check has failed for PR ${{ github.event.pull_request.html_url }}
+      
+  

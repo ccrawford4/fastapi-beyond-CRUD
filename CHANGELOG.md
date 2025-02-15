@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.2.0...v1.3.0) (2025-02-15)
+
+
+### Features
+
+* auto close PR and send email upon failing checks ([886d099](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/886d09953636fa36a98213fe2cb8784a23a86e45))
+
 # [1.2.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.1.2...v1.2.0) (2025-02-15)
 
 

@@ -12,11 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check
-        run: |
-          echo "email: "
-          echo ${{ github.event.pull_request.user.email }}
-
       - name: Conventional Commits
         uses: webiny/action-conventional-commits@v1.3.0
       
@@ -29,7 +24,7 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: Conventional Commits check failed
-          to: ${{ github.event.pull_request.user.email }}
+          to: ${{ secrets.EMAIL_DESTINATION }}
           from: GitHub Workflow <${{ secrets.NOTIFICATION_SENDER }}>
           body: The Conventional Commits check has failed for PR ${{ github.event.pull_request.html_url }}
       

@@ -7,9 +7,10 @@ on:
     branches: main
 
 jobs:
-  main:
+  test:
     runs-on: ubuntu-latest
     name: Run pytest
+    environment: main
 
     steps:
         - uses: actions/setup-python@v2
@@ -21,17 +22,17 @@ jobs:
 
         - name: Pytest Action Step
           env: 
-            DATABASE_URL: ${DATABASE_URL}
-            JWT_SECRET: ${JWT_SECRET}
-            JWT_ALGORITHM: ${JWT_ALGORITHM}
-            MAIL_USERNAME: ${MAIL_USERNAME}
-            MAIL_PASSWORD: ${MAIL_PASSWORD}
-            MAIL_SERVER: ${MAIL_SERVER}
-            MAIL_PORT: ${MAIL_PORT}
-            MAIL_FROM: ${MAIL_FROM}
-            MAIL_FROM_NAME: ${MAIL_FROM_NAME}
-            DOMAIN: ${DOMAIN}
-            REDIS_URL: ${REDIS_URL}
+            DATABASE_URL: ${{ secrets.DATABASE_URL }}
+            JWT_SECRET: ${{ secrets.JWT_SECRET }}
+            JWT_ALGORITHM: ${{ secrets.JWT_ALGORITHM }}
+            MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+            MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+            MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
+            MAIL_PORT: ${{ secrets.MAIL_PORT }}
+            MAIL_FROM: ${{ secrets.MAIL_FROM }}
+            MAIL_FROM_NAME: ${{ secrets.MAIL_FROM_NAME }}
+            DOMAIN: ${{ secrets.DOMAIN }}
+            REDIS_URL: ${{ secrets.REDIS_URL }}
           id: pytest
           uses: paolorechia/fast-pytest-github-action@develop
           with:
@@ -39,6 +40,7 @@ jobs:
             requirements_file: 'requirements.txt'
 
   push_to_registry:
+    needs: test
     name: Push docker image to Docker Hub
     runs-on: ubuntu-latest
     environment:

@@ -19,10 +19,10 @@ jobs:
         if: failure()
         uses: dawidd6/action-send-mail@v4
         with:
-          server_address: ${{ secrets.SMTP_SERVER_ADDR }}
-          server_port: ${{ secrets.SMTP_SERVER_PORT }}
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: ${{ secrets.MAIL_PORT }}
+          username: ${{ secrets.MAIL_USERNAME}}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: Conventional Commits check failed
           to: ${{ secrets.EMAIL_DESTINATION }}
           from: GitHub Workflow

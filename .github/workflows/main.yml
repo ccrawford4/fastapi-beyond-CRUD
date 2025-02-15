@@ -17,13 +17,13 @@ jobs:
             python-version: '3.12'
 
         - name: Checkout
-          uses: actions/checkout@v2
+          uses: actions/checkout@v4
 
         - name: Pytest Action Step
           id: pytest
           uses: paolorechia/fast-pytest-github-action@develop
           with:
-            pytest_args: ''
+            pytest_args: 'src/tests'
             requirements_file: 'requirements.txt'
 
   push_to_registry:

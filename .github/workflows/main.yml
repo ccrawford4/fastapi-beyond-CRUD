@@ -20,6 +20,18 @@ jobs:
           uses: actions/checkout@v4
 
         - name: Pytest Action Step
+          env: 
+            DATABASE_URL: ${DATABASE_URL}
+            JWT_SECRET: ${JWT_SECRET}
+            JWT_ALGORITHM: ${JWT_ALGORITHM}
+            MAIL_USERNAME: ${MAIL_USERNAME}
+            MAIL_PASSWORD: ${MAIL_PASSWORD}
+            MAIL_SERVER: ${MAIL_SERVER}
+            MAIL_PORT: ${MAIL_PORT}
+            MAIL_FROM: ${MAIL_FROM}
+            MAIL_FROM_NAME: ${MAIL_FROM_NAME}
+            DOMAIN: ${DOMAIN}
+            REDIS_URL: ${REDIS_URL}
           id: pytest
           uses: paolorechia/fast-pytest-github-action@develop
           with:

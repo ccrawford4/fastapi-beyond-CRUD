@@ -12,13 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Conventional Commits
-        uses: webiny/action-conventional-commits@v1.3.0
-      
       - name: Check
         run: |
           echo "email: "
           echo ${{ github.event.pull_request.user.email }}
+
+      - name: Conventional Commits
+        uses: webiny/action-conventional-commits@v1.3.0
       
       - name: Send email notification
         if: failure()

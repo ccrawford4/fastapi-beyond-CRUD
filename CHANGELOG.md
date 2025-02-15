@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.3...v1.7.4) (2025-02-15)
+
+
+### Bug Fixes
+
+* using correct release version for tag ([1bc2480](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/1bc24809d64e27139145c7552f0ddbdd5e79695c))
+
 ## [1.7.3](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.2...v1.7.3) (2025-02-15)
 
 

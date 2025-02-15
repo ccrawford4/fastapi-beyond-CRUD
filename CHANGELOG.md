@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.0...v1.7.1) (2025-02-15)
+
+
+### Bug Fixes
+
+* pass pytest args ([dea30bc](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/dea30bcc26e712494133e425ba81e87e1d1de952))
+
 # [1.7.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.6.0...v1.7.0) (2025-02-15)
 
 

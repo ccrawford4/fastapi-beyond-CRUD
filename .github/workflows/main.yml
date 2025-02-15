@@ -34,7 +34,7 @@ jobs:
           id: pytest
           uses: paolorechia/fast-pytest-github-action@develop
           with:
-            pytest_args: ''
+            pytest_args: 'src/tests'
             requirements_file: 'requirements.txt'
 
         - name: Notify Repository Admin if Nightly Build Fails

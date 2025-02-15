@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.1.2...v1.2.0) (2025-02-15)
+
+
+### Features
+
+* send notifications for failing PRs ([0801dfa](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/0801dfad83169de75e8b060ca749e02af57044a7))
+
 ## [1.1.2](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.1.1...v1.1.2) (2025-02-14)
 
 

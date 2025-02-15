@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.4.0...v1.5.0) (2025-02-15)
+
+
+### Bug Fixes
+
+* update tags ([f7f1e08](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/f7f1e080af6c8d1bded383b25b6929b113b40889))
+* use old method of extracting metadata ([dcbca97](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/dcbca97d80f8af2b88028a017b09e29bb7e48e0a))
+
+
+### Features
+
+* update tag using semvar ([683067a](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/683067ac6deeffd7e6510225ea968ff3ca0d30a9))
+* update tag using semvar ([14c386e](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/14c386e4119222e7a692d58b8dc4a7673ba6a9e5))
+
 # [1.4.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.3.0...v1.4.0) (2025-02-15)
 
 

@@ -25,7 +25,13 @@ jobs:
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: Conventional Commits check failed
           to: ${{ secrets.EMAIL_DESTINATION }}
-          from: GitHub Workflow <${{ secrets.NOTIFICATION_SENDER }}>
+          from: GitHub Workflow
           body: The Conventional Commits check has failed for PR ${{ github.event.pull_request.html_url }}
       
-  
+      - name: Close the PR If It Fails
+        if: failure()
+        uses: peter-evans/close-pull@v3
+        with:
+          pull-request-number: ${{ github.event.pull_request.number }}
+          comment: Auto-closing pull request for not adhering to conventional commits
+          delete-branch: true

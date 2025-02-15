@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.2...v1.7.3) (2025-02-15)
+
+
+### Bug Fixes
+
+* use secrets for env vars ([ca0da6e](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/ca0da6ef79b7ff9a1b57e727f0067a13b4229526))
+
 ## [1.7.2](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.1...v1.7.2) (2025-02-15)
 
 

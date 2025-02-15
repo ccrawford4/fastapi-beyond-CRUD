@@ -1,3 +1,11 @@
+## [1.8.1](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.8.0...v1.8.1) (2025-02-15)
+
+
+### Bug Fixes
+
+* move notifications to within pytset step ([362eb02](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/362eb021bd93287d85b3844125e2a6f97322485b))
+* test failing nightly build ([8ebb8df](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/8ebb8dfab719d88e316afc2797098ffea06831eb))
+
 # [1.8.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.4...v1.8.0) (2025-02-15)
 
 

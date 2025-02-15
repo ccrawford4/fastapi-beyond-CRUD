@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.6.0...v1.7.0) (2025-02-15)
+
+
+### Features
+
+* update yml ([9ea09a5](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/9ea09a50b710d100e247cebf2f865681c399f90c))
+
 # [1.6.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.5.0...v1.6.0) (2025-02-15)
 
 

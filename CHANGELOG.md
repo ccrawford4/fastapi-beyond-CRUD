@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.4...v1.8.0) (2025-02-15)
+
+
+### Features
+
+* using cron job with notifications of failure ([00286a9](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/00286a9a13807e33e5b3a25ff3d243113be9ba2e))
+
 ## [1.7.4](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.7.3...v1.7.4) (2025-02-15)
 
 

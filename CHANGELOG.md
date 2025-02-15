@@ -1,3 +1,14 @@
+## [1.8.2](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.8.1...v1.8.2) (2025-02-15)
+
+
+### Bug Fixes
+
+* check working nightly build ([232e4f7](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/232e4f78c508854b3d5cea024c344b8409bc9dee))
+* conventional commit ([46fe0a0](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/46fe0a02204c2e03616d937be13b33c4d067902a))
+* main.yml ([5746590](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/5746590ae0242245e23129dbfa737bce2662bcbc))
+* resolve commit ([401b8de](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/401b8de7670e1cebc594677be844e988b237b655))
+* test broken deployment ([a39bbd8](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/a39bbd856960bc5a923485f45989f6d26165a379))
+
 ## [1.8.1](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.8.0...v1.8.1) (2025-02-15)
 
 

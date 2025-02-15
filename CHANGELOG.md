@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.5.0...v1.6.0) (2025-02-15)
+
+
+### Features
+
+* use cron-job for pytest ([3d311d5](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/3d311d537fd0756658c559afb27e08b998971abc))
+
 # [1.5.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.4.0...v1.5.0) (2025-02-15)
 
 

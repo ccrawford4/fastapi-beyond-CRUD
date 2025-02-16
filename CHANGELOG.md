@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.8.2...v1.9.0) (2025-02-16)
+
+
+### Bug Fixes
+
+* include email credentials ([5c48c2a](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/5c48c2a299fd150202ce5038f3d2da7e047bf8e4))
+* use 12am for nightly builds ([109d418](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/109d4181776ffe3362281951d37fbb767b27cac6))
+
+
+### Features
+
+* **documentation:** update readme ([d5698ff](https://github.com/ccrawford4/fastapi-beyond-CRUD/commit/d5698ff3535ce43fb896e062f58d06956dcee044))
+
 ## [1.8.2](https://github.com/ccrawford4/fastapi-beyond-CRUD/compare/v1.8.1...v1.8.2) (2025-02-15)
 
 
